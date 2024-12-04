@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 // Conexão com o MongoDB
 const connectDB = () =>{
-    mongoose.connect('mongodb+srv://elasnarederio:659cfPscSE89YHRn@cluster0.q1e61.mongodb.net/');
+    mongoose.connect('mongodb+srv://penhakatia70:IPLCkhyLbIcEC2jl@cluster0.h4vfe.mongodb.net/');
 
     const db = mongoose.connection;
     db.on('error', console.error.bind(console, 'Erro na conexão com o MongoDB:'));

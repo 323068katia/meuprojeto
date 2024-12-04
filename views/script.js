@@ -1,4 +1,4 @@
-const API_URL = 'https://meubackcompleto.onrender.com/api/expenses';
+const API_URL = 'https://meuprojeto-ofmc.onrender.com/api/expenses';
 
 document.getElementById('expenseForm').addEventListener('submit', async (e) => {
     e.preventDefault();
